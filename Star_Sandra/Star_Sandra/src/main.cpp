@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char *SSID = "ANITAB LAB";
-const char *Pass = "Akirachix@2011";
+const char *SSID = WIFI_SSID;
+const char *Pass = WIFI_PASS;
 const int LED = 2;
 
 
